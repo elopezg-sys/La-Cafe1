@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Restaurante</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* fondo oscuro para resaltar las fotos */
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .menu img, 
+    .menu video {
+      width: 100%;
+      height: auto; /* mantiene proporción */
+      display: block;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <img src="1.jpg" alt="Menú página 1">
+    <img src="2.jpg" alt="Menú página 2">
+
+    <!-- Video a pantalla completa -->
+    <video controls autoplay muted loop>
+      <source src="la cafe.mp4" type="video/mp4">
+      Tu navegador no soporta reproducción de video.
+    </video>
+  </div>
+</body>
+</html>
